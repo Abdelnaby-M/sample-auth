@@ -13,6 +13,7 @@ fi
 cd ../sample-auth-ui
 npm i
 npm run build
+mkdir -p ../sample-auth/client
 cp -r out ../sample-auth/client
 cp -r public ../sample-auth/client
 cd ../sample-auth
